@@ -530,18 +530,20 @@
        </div>
 
        
-       <div class="grid grid-cols-1 lg:grid-cols-3 mt-8 gap-20">
+       <div class="grid grid-cols-1 lg:grid-cols-3 mt-8 gap-20 ">
        <!---- ===   card container  === ---->
-       <div>
+       <div class="col-span-1">
        
-       <div class="space-y-5">
+       <div class="space-y-5 ">
         <!--    phone card    -->
        
-       <div class="bg-[#BCED6D1A] p-8 rounded-xl">
-        <img src="./Images/phone.png" alt="">
-        <p class="text-xs opacity-75">Phone Number:</p>
-        <h4 class="font-bold">(+62) 123-321-543</h4>
-       </div>
+      <div class="">
+        <div class="bg-[#BCED6D1A] p-8 rounded-xl ">
+          <img src="./Images/phone.png" alt="">
+          <p class="text-xs opacity-75">Phone Number:</p>
+          <h4 class="font-bold">(+62) 123-321-543</h4>
+         </div>
+      </div>
 
 
        <!--    phone card    -->
@@ -698,6 +700,56 @@
     </section>
     
     </main>
+
+
+    <footer class="footer p-10 bg-base-200 text-base-content">
+
+      <nav>
+        <header class="footer-title">Services</header> 
+        <a class="link link-hover">Branding</a>
+        <a class="link link-hover">Design</a>
+        <a class="link link-hover">Marketing</a>
+        <a class="link link-hover">Advertisement</a>
+      </nav> 
+      
+      <div>
+      
+        <nav>
+          <header class="footer-title">Company</header> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav> 
+
+        <nav>
+          <header class="footer-title">Legal</header> 
+          <ul>
+            <li class="link link-hover">Terms of use</li>
+          <li class="link link-hover">Privacy policy</li>
+          <li class="link link-hover">Cookie policy</li>
+          </ul>
+          
+        </nav> 
+      
+      </div>
+      
+
+      
+
+      <form>
+        <header class="footer-title">Newsletter</header> 
+        <fieldset class="form-control w-80">
+          <label class="label">
+            <span class="label-text">Enter your email address</span>
+          </label> 
+          <div class="join">
+            <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
+            <button class="btn btn-primary join-item">Subscribe</button>
+          </div>
+        </fieldset>
+      </form>
+    </footer>
     
 </body>
 
